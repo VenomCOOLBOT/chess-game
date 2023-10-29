@@ -6,6 +6,7 @@ public class Chess {
 
         board = new Board();
         board.initializeBoard();
+        board.setPieces();
 
         runEventLoop();
     }
